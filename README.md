@@ -38,6 +38,13 @@ Simple servo`s system
  - potentiometer 2 is connected to pin A2
  - Servo 1 is connected to pin 3
  - Servo 2 is connected to pin 4
+ 
+ 
+#  Amplifier Projects
+
+ - Amplifier/The Differential Amplifier
+ - Amplifier/The Sum Amplifier
+
 
 
 # Status
