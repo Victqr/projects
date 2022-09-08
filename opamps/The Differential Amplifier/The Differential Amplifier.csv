@@ -1,0 +1,8 @@
+﻿Naam,Hoeveelheid,Component
+"U1",1," Operationele versterker 741"
+"R1, R4",2,"5600 Ω Weerstand"
+"R2, R3",2,"2700 Ω Weerstand"
+"P1, P2",2,"18 , 5  Voeding"
+"P3",1,"3.4 , 5  Voeding"
+"P4",1,"1.6 , 5  Voeding"
+"Meter1",1,"Voltage Multimeter"
