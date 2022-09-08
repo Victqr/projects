@@ -28,7 +28,10 @@ Simple read voltage system to make a LED glow
 __servos.ino__
 
 Simple servo`s system
- - potentiometer is connected to pin A0
+ - potentiometer 1 is connected to pin A1
+ - potentiometer 2 is connected to pin A2
+ - Servo 1 is connected to pin 3
+ - Servo 2 is connected to pin 4
 
 
 # Status
