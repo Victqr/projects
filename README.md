@@ -20,9 +20,14 @@ Simple push button system to make a LED glow
  - led is connected to pin 13                
  - Button is connected to pin 12               
 
-__readanalogvoltage.ino.ino__
+__readanalogvoltage.ino__
 
 Simple read voltage system to make a LED glow
+ - potentiometer is connected to pin A0
+
+__servos.ino__
+
+Simple servo`s system
  - potentiometer is connected to pin A0
 
 

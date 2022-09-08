@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////
-//          Simple servo system to make a LED glow           //
+//                    Simple servo system                    //
 //          potentiometer 1 is connected to pin A1           //
 //          potentiometer 2 is connected to pin A2           //
 //               Servo 1 is connected to pin 3               //
