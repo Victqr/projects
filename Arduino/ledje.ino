@@ -1,20 +1,18 @@
 ///////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////
 //           Simple LED system to make a LED blink           //
-//                led is connected to pin 13                 //
+//                led is connected to pin 2                  //
 ///////////////////////////////////////////////////////////////
 
-int led = 13;
+int led = 2; // The pin the LED is connected to
 
-void setup() {
-
-    pinMode(13, OUTPUT); // put pin 13 as output of your led
-
+void setup(){
+  pinMode(led, OUTPUT); // Declare the LED as an output
 }
 
-void loop() {
-    DigitalWrite(led, HIGH); // turn on the led on pin 13
-    delay(1000); // 1000 ms pause
-    digitalWrite(led, LOW); // turn off the led on pin 13
-    delay(1000); // 1000 ms pause
+void loop(){
+  digitalWrite(led, HIGH); // Turn the LED on
+  delay(1000); // delay 1s
+  digitalWrite(led, LOW); // Turn the LED off
+  delay(1000); // delay 1s
 }
