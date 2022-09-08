@@ -12,7 +12,7 @@ best regards victor limpens
 __ledje.ino__
 
 Simple LED system to make a LED blink
-- led is connected to pin 13
+- led is connected to pin 2
 
 __pushbuttoncode.ino__
 
