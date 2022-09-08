@@ -26,8 +26,10 @@ Simple push button system to make a LED glow
 
 __Arduino/readanalogvoltage.ino__
 
-Simple read voltage system to make a LED glow
+Simple read voltage system
  - potentiometer is connected to pin A0
+
+![readanalogvoltage system](https://i.imgur.com/jsZwTNe.png)
 
 __Arduino/servos.ino__
 
