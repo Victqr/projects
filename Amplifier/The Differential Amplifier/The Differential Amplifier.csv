@@ -1,4 +1,4 @@
-﻿Naam,Hoeveelheid,Component
+﻿name,Quantity,Component
 "U1",1," LM741 Amplifier"
 "R1, R4",2,"5600 Ω resistor"
 "R2, R3",2,"2700 Ω resistor"
