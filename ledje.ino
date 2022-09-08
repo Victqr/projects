@@ -1,14 +1,13 @@
 ///////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////
 //           Simple LED system to make a LED blink           //
 //                led is connected to pin 13                 //
 ///////////////////////////////////////////////////////////////
 
-int led = 13;
+int led = 2;
 
 void setup() {
 
-    pinMode(13, OUTPUT); // put pin 13 as output of your led
+    pinMode(led, OUTPUT); // put pin 13 as output of your led
 
 }
 
