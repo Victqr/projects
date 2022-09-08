@@ -9,14 +9,14 @@ best regards victor limpens
 
 # A little bit info about the codes
 
-__ledje.ino__
+__Arduino/ledje.ino__
 
 Simple LED system to make a LED blink
 - led is connected to pin 2
 
 ![LED system](https://i.imgur.com/OXybTqp.png)
 
-__pushbuttoncode.ino__
+__Arduino/pushbuttoncode.ino__
 
 Simple push button system to make a LED glow     
  - led is connected to pin 9                
@@ -24,12 +24,12 @@ Simple push button system to make a LED glow
 
 ![BUTTON system](https://i.imgur.com/CWnBbJT.png)            
 
-__readanalogvoltage.ino__
+__Arduino/readanalogvoltage.ino__
 
 Simple read voltage system to make a LED glow
  - potentiometer is connected to pin A0
 
-__servos.ino__
+__Arduino/servos.ino__
 
 Simple servo`s system
  - potentiometer 1 is connected to pin A1
