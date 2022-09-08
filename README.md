@@ -12,13 +12,17 @@ best regards victor limpens
 __ledje.ino__
 
 Simple LED system to make a LED blink
-- led is connected to pin 13
+- led is connected to pin 2
+
+![LED system](https://i.imgur.com/OXybTqp.png)
 
 __pushbuttoncode.ino__
 
 Simple push button system to make a LED glow     
- - led is connected to pin 13                
- - Button is connected to pin 12               
+ - led is connected to pin 9                
+ - Button is connected to pin 11
+
+![BUTTON system](https://i.imgur.com/CWnBbJT.png)            
 
 __readanalogvoltage.ino__
 

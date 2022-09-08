@@ -1,26 +1,22 @@
 ///////////////////////////////////////////////////////////////
 //       Simple push button system to make a LED glow        //
-//                led is connected to pin 13                 //
-//              Button is connected to pin 12                //
+//                led is connected to pin 9                  //
+//              Button is connected to pin 11                //
 ///////////////////////////////////////////////////////////////
 
 
-int switchPin = 12;
-int led = 13;
-int switchState = LOW;
+int ledPin = 9;
+int buttonPin = 11;
 
-void setup() {
-    pinMode(led, OUTPUT);
-    pinMode(switchPin, INPUT);
+void setup(){
+  pinMode(ledPin,OUTPUT);
+  pinMode(buttonPin,INPUT);
 }
 
-void loop() {
-        switchState = digitalRead(switchPin);
-            Serial.println(switchState);
- 
-                if (switchState == HIGH) {
-                    digitalWrite(led, HIGH);
-                } else {
-                    digitalWrite(led, LOW);
-                }    
+void loop(){
+  if (digitalRead(buttonPin)==HIGH){
+    digitalWrite(ledPin, HIGH);
+  } else {
+    digitalWrite(ledPin, LOW);
+  }
 }
