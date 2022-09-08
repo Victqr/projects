@@ -1,6 +1,11 @@
-int reader = A0; // setuo value reader on pin analog 0 
+///////////////////////////////////////////////////////////////
+//      Simple read voltage system to make a LED glow        //
+//           potentiometer is connected to pin A0            //
+///////////////////////////////////////////////////////////////
 
-void setup() { //setup 1x after restart
+int reader = A0; // setup value reader on pin analog 0 the potentiometer
+
+void setup() {  //setup 1x after restart
   Serial.begin(9600); // start serial communication at 9600 bits per second
 }
 
