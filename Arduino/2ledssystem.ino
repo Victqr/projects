@@ -13,16 +13,16 @@ void setup() {
 
 void loop(){
   for (int i=0; i<repeat1; i++){
-    digitalWrite(ledPin, HIGH);  // zet LEDPin aan
-    delay(onLedTime);              // pauze
-    digitalWrite(ledPin, LOW);  // zet LEDPin uit
-    delay(offLedTime);             // pauze
+    digitalWrite(ledPin, HIGH); //turn LED 10 on
+    delay(onLedTime);              //pause
+    digitalWrite(ledPin, LOW);  //turn LED 10 off
+    delay(offLedTime);             //pause
   }
     for (int i=repeat1; i<repeat2; i++){
-    digitalWrite(ledPin2, HIGH);  // zet LEDPin aan
-    delay(onLedTime);              // pauze
-    digitalWrite(ledPin2, LOW);  // zet LEDPin uit
-    delay(offLedTime);             // pauze
+    digitalWrite(ledPin2, HIGH); //turn LED 11 on
+    delay(onLedTime);              //pause
+    digitalWrite(ledPin2, LOW);  //turn LED 11 off
+    delay(offLedTime);             //pause
   }
   while(1);
 }
