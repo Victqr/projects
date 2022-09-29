@@ -9,27 +9,55 @@ best regards victor limpens
 
 # A little bit info about the codes
 
-__Arduino/ledje.ino__
+__Arduino/Led/1led_system_code.ino__
 
 Simple LED system to make a LED blink
 - led is connected to pin 2
 
-![LED system](https://i.imgur.com/OXybTqp.png)
+__Arduino/Led/2leds_system_code.ino__
 
-__Arduino/pushbuttoncode.ino__
+Simple LED system to make a 2 LEDS blink in a loop
+- led1 is connected to pin 10
+- led2 is connected to pim 11
+- time led is on 200 ms
+- time led is off 100 ms
+- loop 1 repeats 10 times 
+- loop 2 repeats 5 times
+
+__Arduino/Led/1led_constants_code.ino__
+
+Simple led system but your led pin is a constants in code
+- led is connected to pin 10
+- time led is on 500 ms
+- time led is off 500 ms
+
+__Arduino/Led/push_button_code.ino__
 
 Simple push button system to make a LED glow     
  - led is connected to pin 9                
  - Button is connected to pin 11
 
-![BUTTON system](https://i.imgur.com/CWnBbJT.png)            
+__Arduino/Serial/counting.ino__
 
-__Arduino/readanalogvoltage.ino__
+Simple counting system in seriële monitor
+ - Counting is set to 25
+
+__Arduino/Serial/name_serial.ino__
+
+Simple name sender in seriële monitor
+- Change your name in Serial.println line
+- Delay is set to 1s (1000 ms)
+
+__Arduino/Serial/read_analog_voltage.ino__
 
 Simple read voltage system
  - potentiometer is connected to pin A0
 
-![readanalogvoltage system](https://i.imgur.com/jsZwTNe.png)
+__Arduino/sensor.ino__
+
+Simple sensor code to turn on led
+ - led is connected to pin 13
+ - sensor is connected to pin 2
 
 __Arduino/servos.ino__
 
@@ -39,7 +67,8 @@ Simple servo`s system
  - Servo 1 is connected to pin 3
  - Servo 2 is connected to pin 4
  
- 
+
+
 #  Amplifier Projects
 
  - Amplifier/The Differential Amplifier
