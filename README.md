@@ -5,6 +5,9 @@ The schematics will be uploaded later with some more codes.
 If you have any questions you can always send me an email.
 email: victorlimpens7@gmail.com
 
+[![](https://img.shields.io/badge/github-blue?style=for-the-badge)](https://github.com/vicqtr)
+
+
 best regards victor limpens
 
 # A little bit info about the codes
