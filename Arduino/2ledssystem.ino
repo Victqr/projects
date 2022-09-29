@@ -8,7 +8,6 @@ int repeat2 = 15; //repeat loop 2 to 15 times
 void setup() {
   pinMode (ledPin, OUTPUT); //Set LedPin if Output, LedPin is identify on pin 10
 	pinMode (ledPin2, OUTPUT); //Set LedPin if Output, LedPin is identify on pin 11
-  
 }
 
 void loop(){
