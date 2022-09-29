@@ -1,25 +1,28 @@
-const int ledPin = 10; //led connectie on pin 10
-const int ledPin2 = 11; //led connectie on pin 11
-const int onLedTime = 200; //delay time 200 ms
-const int offLedTime = 100; //delay time 100 ms
+int ledPin = 10; //led connectie on pin 10
+int ledPin2 = 11; //led connectie on pin 11
+int onLedTime = 200; //delay time 500 ms
+int offLedTime = 100; //delay time 500 ms
+int repeat1 = 10; //repeat loop 1 to 10 times
+int repeat2 = 15; //repeat loop 2 to 15 times
 
 void setup() {
   pinMode (ledPin, OUTPUT); //Set LedPin if Output, LedPin is identify on pin 10
-    pinMode (ledPin2, OUTPUT); //Set LedPin2 if Output, LedPin is identify on pin 11
+	pinMode (ledPin2, OUTPUT); //Set LedPin if Output, LedPin is identify on pin 11
+  
 }
 
 void loop(){
-  for (int i=0; i<10; i++){
-    digitalWrite(ledPin, HIGH);  // turn LEDPin on
-    delay(onLedTime);              // pause
-    digitalWrite(ledPin, LOW);  // turn LEDPin off
-    delay(offLedTime);             // pause
+  for (int i=0; i<repeat1; i++){
+    digitalWrite(ledPin, HIGH);  // zet LEDPin aan
+    delay(onLedTime);              // pauze
+    digitalWrite(ledPin, LOW);  // zet LEDPin uit
+    delay(offLedTime);             // pauze
   }
-  for (int i=10; i<15; i++){
-    digitalWrite(ledPin2, HIGH);  // turn LEDPin2 onn
-    delay(onLedTime);              // pause
-    digitalWrite(ledPin2, LOW);  // turn LEDPin2 off
-    delay(offLedTime);             // pause
+    for (int i=repeat1; i<repeat2; i++){
+    digitalWrite(ledPin2, HIGH);  // zet LEDPin aan
+    delay(onLedTime);              // pauze
+    digitalWrite(ledPin2, LOW);  // zet LEDPin uit
+    delay(offLedTime);             // pauze
   }
-  while(1); //stop whole loop
+  while(1);
 }
