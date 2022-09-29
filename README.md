@@ -9,7 +9,7 @@ best regards victor limpens
 
 # A little bit info about the codes
 
-## __Arduino/Led/1led_system_code.ino__
+## __Arduino/Led/1led_system_code.ino__ 
 
 Simple LED system to make a LED blink
 - led is connected to pin 2
@@ -24,7 +24,7 @@ Simple LED system to make a 2 LEDS blink in a loop
 - loop 1 repeats 10 times 
 - loop 2 repeats 5 times
 
-## __Arduino/Led/1led_constants_code.ino__
+## [__Arduino/Led/1led_constants_code.ino__](https://github.com/Victqr/projects/blob/main/Arduino/Led/1led_constants_code.ino)
 
 Simple led system but your led pin is a constants in code
 - led is connected to pin 10
