@@ -7,7 +7,6 @@ email: victorlimpens7@gmail.com
 
 [![](https://img.shields.io/badge/github-blue?style=for-the-badge)](https://github.com/Victqr)
 
-
 best regards victor limpens
 
 # A little bit info about the codes
@@ -69,7 +68,6 @@ Simple servo`s system
  - potentiometer 2 is connected to pin A2
  - Servo 1 is connected to pin 3
  - Servo 2 is connected to pin 4
- 
 
 #  Amplifier Projects
 
