@@ -27,7 +27,7 @@ Simple LED system to make a LED blink
 
 Simple LED system to make a 2 LEDS blink in a loop
 - led1 is connected to pin 10
-- led2 is connected to pim 11
+- led2 is connected to pin 11
 - time led is on 200 ms
 - time led is off 100 ms
 - loop 1 repeats 10 times 
