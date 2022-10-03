@@ -44,6 +44,12 @@ Simple name sender in seriële monitor
 Simple read voltage system
  - potentiometer is connected to pin A0
 
+## [__Arduino/Serial/score.ino__](https://github.com/Victqr/projects/blob/main/Arduino/Serial/score.ino)
+
+Simple servo`s system
+ - score is set on 60%
+ 
+
 ## [__Arduino/sensor.ino__](https://github.com/Victqr/projects/blob/main/Arduino/sensor.ino)
 
 Simple sensor code to turn on led
@@ -57,4 +63,6 @@ Simple servo`s system
  - potentiometer 2 is connected to pin A2
  - Servo 1 is connected to pin 3
  - Servo 2 is connected to pin 4
+ 
+ 
  
