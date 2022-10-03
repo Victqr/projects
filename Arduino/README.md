@@ -7,6 +7,17 @@ Simple led system but your led pin is a constants in code
 - time led is on 500 ms
 - time led is off 500 ms
 
+## [__Arduino/Led/1led_counting_system.ino__](https://github.com/Victqr/projects/blob/main/Arduino/Led/1led_counting_system.ino)
+
+Simple led system with counting system
+- led is connected to pin 13
+- counter 1 is set on 0
+- counter 2 is set on 0
+- time led 1 is on 500 ms
+- time led 1 is off 500 ms
+- time led 2 is on 250 ms
+- time led 2 is off 250 ms
+
 ## [__Arduino/Led/1led_system_code.ino__](https://github.com/Victqr/projects/blob/main/Arduino/Led/1led_system_code.ino)
 
 Simple LED system to make a LED blink
