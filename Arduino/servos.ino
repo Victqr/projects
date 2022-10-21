@@ -12,14 +12,14 @@
 Servo servo1; 
 const int servo1PotPin = A1; // potentiometer on pin A1
 const int servo1Pin = 3; // servo on pin 3
-int servo1Value;
+int servo1;
 //**** servo 1 settings END
 
 //**** servo 2 settings
 Servo servo2; 
 const int servo2PotPin = A2; // potentiometer on pin A0
 const int servo2Pin = 4; // servo on pin 4
-int servo2Value;
+int servo2;
 //**** servo 1 settings END
 
 void setup() {
@@ -28,13 +28,13 @@ void setup() {
 }
 
 void loop() {
-  servo1Value = analogRead(servo1PotPin); 
-  servo1Value = map(servo1Value, 1, 1023, 69, 0); // rotate servo 1
-  servo1.write(servo1Value);
+  servo1 = analogRead(servo1PotPin); 
+  servo1 = map(servo1, 1, 1023, 69, 0); // rotate servo 1
+  servo1.write(servo1);
 
-  servo2Value = analogRead(servo2PotPin); 
-  servo2Value = map(servo2Value, 0, 1023, 0, 180); // rotate servo 2
-  servo2.write(servo2Value);
+  servo2 = analogRead(servo2PotPin); 
+  servo2 = map(servo2, 0, 1023, 0, 180); // rotate servo 2
+  servo2.write(servo2);
 
   delay(15); // delay of 15 ms
 }
