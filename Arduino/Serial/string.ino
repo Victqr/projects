@@ -1,5 +1,5 @@
 String message = "";
-String lengte = "";
+String length = "";
 void setup() {
 	Serial.begin(9600);
 	Serial.println("Typ een tekst in de serial monitor");
@@ -8,7 +8,7 @@ void setup() {
 void loop() {
 	while (Serial.available()==1){
        	message=Serial.readString();
-        lengte=message.length(); 
-   		Serial.println(lengte);
+        length=message.length(); 
+        Serial.println(length);
 	}
 }
