@@ -15,7 +15,7 @@ void loop() {
 
 void som(int radius)
 { int oplossing;
-  oplossing = 2 * PI * radius;
+  oplossing = PI * radius * radius;
   Serial.print("De opervlakte van de cirkel is: ");
   Serial.println(oplossing);
 }
