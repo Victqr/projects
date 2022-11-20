@@ -1,6 +1,3 @@
-// C++ code
-//
-
 int radius = 0;
 float x = PI;
 void setup()
