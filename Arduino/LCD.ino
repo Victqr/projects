@@ -1,5 +1,3 @@
-#include <LiquidCrystal.h>
-
 #define PIN_BUTTON 2
 #define PIN_AUTOPLAY 1
 #define PIN_READWRITE 10
@@ -212,6 +210,11 @@ bool drawHero(byte position, char* terrainUpper, char* terrainLower, unsigned in
   
   lcd.setCursor(16 - digits,0);
   lcd.print(score);
+  
+  if(highscore < score ){
+        highscore++;
+        Serial.println(String("highscore ") + highscore);
+    }
   
   terrainUpper[HERO_HORIZONTAL_POSITION] = upperSave;
   terrainLower[HERO_HORIZONTAL_POSITION] = lowerSave;
