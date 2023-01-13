@@ -1,3 +1,5 @@
+#include <LiquidCrystal.h>
+
 #define PIN_BUTTON 2
 #define PIN_AUTOPLAY 1
 #define PIN_READWRITE 10
